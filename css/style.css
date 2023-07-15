@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+section{
+    background-color: aquamarine;
+    padding: 40px;
+}
+.item{
+    width: 30%;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin: 15px;
+    border-radius: 10px;
+    position: relative;
+}
+.item h2{
+    font-size: 32px;
+    color: rgb(21, 107, 52);
+    text-transform: capitalize;
+    padding: 15px;
+}
+.item p{
+    font-size: 16px;
+    color: rgb(115, 133, 121);
+    text-transform: capitalize;
+    padding: 20px;
+    line-height: 24px;
+}
+.item a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: rgb(0, 159, 29);
+    padding: 20px 40px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    transition: .6s;
+}
+.item img{
+    padding-top: 25px;
+}
+.item a:hover{
+    background-color: black;
+
+}
+.heading{
+    display: block;
+    text-align: center;
+    padding: 25px;
+}
+.heading h6{
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+.heading h1{
+    font-size: 35px;
+    color: rgb(0, 168, 67);
+    text-transform: uppercase;
+}
+.item:hover{
+    background-color: rgb(50, 44, 44);
+
+}
+.fa-brands{
+    color: rgb(3, 155, 39);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    box-shadow: 9px 7px 20px rgb(0, 159, 29);
+    transition: .6s;
+}
+.fa-brands:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
